@@ -1,0 +1,349 @@
+[
+{
+  "model": "membership.membershipbenefits",
+  "pk": 1,
+  "fields": {
+    "name": "Acceso al home"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 2,
+  "fields": {
+    "name": "Acceso total a videos de cursos"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 3,
+  "fields": {
+    "name": "Acceso total a las Normas"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 4,
+  "fields": {
+    "name": "Acceso total al Foro"
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 1,
+  "fields": {
+    "name": "Ser colegiado del CAP."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 2,
+  "fields": {
+    "name": "Estar habilitado."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 3,
+  "fields": {
+    "name": "No tener multas."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 4,
+  "fields": {
+    "name": "Cualquier Profesional o Persona que desee acceder"
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 1,
+  "fields": {
+    "name": "PLAN AGREMIADO",
+    "membership_type": "PLPA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1,
+      2,
+      3
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 2,
+  "fields": {
+    "name": null,
+    "membership_type": "PNA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1
+    ],
+    "conditions": []
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 3,
+  "fields": {
+    "name": "PLAN PROFESIONAL",
+    "membership_type": "PLPP",
+    "price_month": "18.00",
+    "price_quarterly": "0.00",
+    "price_year": "179.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      4
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 4,
+  "fields": {
+    "name": "PLAN PREMIUM AGREMIADO",
+    "membership_type": "PLPPA",
+    "price_month": "10.00",
+    "price_quarterly": "0.00",
+    "price_year": "99.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 5,
+  "fields": {
+    "name": "PLAN AGREMIADO",
+    "membership_type": "PPPA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1,
+      2,
+      3
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 6,
+  "fields": {
+    "name": "PLAN PREMIUM AGREMIADO",
+    "membership_type": "PPPPA",
+    "price_month": "22.00",
+    "price_quarterly": "0.00",
+    "price_year": "209.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 7,
+  "fields": {
+    "name": "PLAN PROFESIONAL",
+    "membership_type": "PPPP",
+    "price_month": "30.00",
+    "price_quarterly": "0.00",
+    "price_year": "289.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      4
+    ]
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 2,
+  "fields": {
+    "name_user": "Andrea",
+    "first_surname": "Villegas",
+    "second_surname": "Pacheco",
+    "cap_num": 1000,
+    "identity": "10001000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "987623678",
+    "phone": "",
+    "email": "avillegas@dt-data.com",
+    "secret_code": null,
+    "address": "s/n",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-13T18:04:26.050",
+    "updated": "2022-04-13T18:04:26.050"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 3,
+  "fields": {
+    "name_user": "Alberto",
+    "first_surname": "Gutierrez",
+    "second_surname": "Toscano",
+    "cap_num": 2000,
+    "identity": "20002000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "976789234",
+    "phone": "",
+    "email": "alberto@gmail.com",
+    "secret_code": null,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-13T18:06:18.553",
+    "updated": "2022-04-13T18:06:18.553"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 4,
+  "fields": {
+    "name_user": "Tomas",
+    "first_surname": "Suarez",
+    "second_surname": "Vera",
+    "cap_num": 3000,
+    "identity": "30003000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "986723459",
+    "phone": "",
+    "email": "tomas@gmail.com",
+    "secret_code": null,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-13T18:07:58.089",
+    "updated": "2022-04-13T18:07:58.089"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 5,
+  "fields": {
+    "name_user": "Lorena",
+    "first_surname": "Altamirano",
+    "second_surname": "Avalos",
+    "cap_num": 4000,
+    "identity": "40004000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "987434879",
+    "phone": "",
+    "email": "lorena@gmail.com",
+    "secret_code": null,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": false,
+    "penalty_fee": true,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-13T18:11:58.372",
+    "updated": "2022-04-13T18:11:58.372"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 6,
+  "fields": {
+    "name_user": "Ana",
+    "first_surname": "Cotrina",
+    "second_surname": "Delgado",
+    "cap_num": 12341234,
+    "identity": "12341234",
+    "person_type": "N",
+    "profession": "",
+    "mobile": "",
+    "phone": "",
+    "email": "ana@gmail.com",
+    "secret_code": null,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PPPP",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": false,
+    "is_client": true,
+    "date_enrollment": "2022-04-18T18:15:48",
+    "date_expired": "2022-05-13T09:16:36",
+    "created": "2022-04-13T18:15:37.850",
+    "updated": "2022-04-18T10:11:28.148"
+  }
+}
+]

@@ -1,0 +1,471 @@
+[
+{
+  "model": "membership.membershipbenefits",
+  "pk": 1,
+  "fields": {
+    "name": "Acceso al home"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 2,
+  "fields": {
+    "name": "Acceso total a las Normas"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 3,
+  "fields": {
+    "name": "Acceso total a videos de cursos"
+  }
+},
+{
+  "model": "membership.membershipbenefits",
+  "pk": 4,
+  "fields": {
+    "name": "Acceso total al Foro"
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 1,
+  "fields": {
+    "name": "Ser colegiado del CAP."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 2,
+  "fields": {
+    "name": "Estar habilitado."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 3,
+  "fields": {
+    "name": "No tener multas."
+  }
+},
+{
+  "model": "membership.membershipconditions",
+  "pk": 4,
+  "fields": {
+    "name": "Cualquier Profesional o Persona que desee acceder"
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 1,
+  "fields": {
+    "name": null,
+    "membership_type": "PLPA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 2,
+  "fields": {
+    "name": null,
+    "membership_type": "PNA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1
+    ],
+    "conditions": []
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 3,
+  "fields": {
+    "name": null,
+    "membership_type": "PLPP",
+    "price_month": "18.00",
+    "price_quarterly": "0.00",
+    "price_year": "179.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      4
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 4,
+  "fields": {
+    "name": null,
+    "membership_type": "PLPPA",
+    "price_month": "10.00",
+    "price_quarterly": "0.00",
+    "price_year": "99.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 5,
+  "fields": {
+    "name": null,
+    "membership_type": "PPPA",
+    "price_month": "0.00",
+    "price_quarterly": "0.00",
+    "price_year": "0.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 6,
+  "fields": {
+    "name": null,
+    "membership_type": "PPPPA",
+    "price_month": "22.00",
+    "price_quarterly": "0.00",
+    "price_year": "209.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "membership.membership",
+  "pk": 7,
+  "fields": {
+    "name": null,
+    "membership_type": "PPPP",
+    "price_month": "30.00",
+    "price_quarterly": "0.00",
+    "price_year": "289.00",
+    "benefits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      4
+    ]
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 1,
+  "fields": {
+    "name_user": "Juan",
+    "first_surname": "Garcia",
+    "second_surname": "Munoz",
+    "cap_num": 1000,
+    "identity": "10001000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "982312345",
+    "phone": "",
+    "email": "juan@gmail.com",
+    "secret_code": null,
+    "address": "Av. pardo",
+    "price_month": "10.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": "2022-03-03T00:00:00",
+    "date_expired": "2022-03-03T00:00:00",
+    "created": "2022-03-03T12:41:01.289",
+    "updated": "2022-03-07T10:40:11.986"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 2,
+  "fields": {
+    "name_user": "Alberto",
+    "first_surname": "Gutierrez",
+    "second_surname": "Toscano",
+    "cap_num": 2000,
+    "identity": "20002000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "983527289",
+    "phone": "",
+    "email": "alberto@gmail.com",
+    "secret_code": null,
+    "address": "Av. los naranjos",
+    "price_month": "10.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": "2022-03-03T00:00:00",
+    "date_expired": "2022-03-03T00:00:00",
+    "created": "2022-03-03T12:43:13.772",
+    "updated": "2022-03-07T10:40:40.045"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 7,
+  "fields": {
+    "name_user": "Lorena",
+    "first_surname": "Altamirano",
+    "second_surname": "Avalos",
+    "cap_num": 4000,
+    "identity": "40004000",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "987345678",
+    "phone": "",
+    "email": "lorena@gmail.com",
+    "secret_code": null,
+    "address": "av. bolognesi 403",
+    "price_month": "18.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PNA",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": "2022-03-04T00:00:00",
+    "date_expired": "2022-03-04T00:00:00",
+    "created": "2022-03-04T10:33:19.051",
+    "updated": "2022-03-24T00:19:39.996"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 9,
+  "fields": {
+    "name_user": "Ana",
+    "first_surname": "Cotrina",
+    "second_surname": "Delgado",
+    "cap_num": 12341234,
+    "identity": "12341234",
+    "person_type": "N",
+    "profession": "O",
+    "mobile": "988841393",
+    "phone": "",
+    "email": "ana@gmail.com",
+    "secret_code": null,
+    "address": "Av. s/n",
+    "price_month": "20.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PPPPA",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": false,
+    "is_client": true,
+    "date_enrollment": "2022-03-25T00:00:00",
+    "date_expired": "2022-04-25T00:00:00",
+    "created": "2022-03-25T09:29:40.945",
+    "updated": "2022-03-25T17:16:43.643"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 10,
+  "fields": {
+    "name_user": "Tomas",
+    "first_surname": "suarez",
+    "second_surname": "vera",
+    "cap_num": 3000,
+    "identity": "30003000",
+    "person_type": "N",
+    "profession": "I",
+    "mobile": "988841358",
+    "phone": "",
+    "email": "suyon.jesus@gmail.com",
+    "secret_code": null,
+    "address": "Av. Del progreso 685 cruz de la esperanza",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": "2022-03-28T00:00:00",
+    "date_expired": "2023-03-28T00:00:00",
+    "created": "2022-03-28T17:27:50.347",
+    "updated": "2022-03-28T17:27:50.347"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 11,
+  "fields": {
+    "name_user": "corue",
+    "first_surname": "ROJAS",
+    "second_surname": "ORUE",
+    "cap_num": 1234,
+    "identity": "70784570",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "965458910",
+    "phone": "",
+    "email": "corue@limacap.org",
+    "secret_code": 1234,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-25T09:24:31.531",
+    "updated": "2022-04-25T09:28:23.145"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 14,
+  "fields": {
+    "name_user": "Liz",
+    "first_surname": "Salvatierra",
+    "second_surname": "Zarsanaula",
+    "cap_num": 4423,
+    "identity": "75432325",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "941708211",
+    "phone": "6262000",
+    "email": "lzarsanaula@limacap.org",
+    "secret_code": 4423,
+    "address": "Avenida Lima 123",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": true,
+    "penalty_fee": false,
+    "has_tutition": true,
+    "is_client": false,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-25T17:44:29.007",
+    "updated": "2022-04-26T11:23:00.531"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 15,
+  "fields": {
+    "name_user": "Ana",
+    "first_surname": "Salas",
+    "second_surname": "Romero",
+    "cap_num": 1166,
+    "identity": "12345689",
+    "person_type": "N",
+    "profession": "A",
+    "mobile": "999999999",
+    "phone": "",
+    "email": "anaro@gmail.com",
+    "secret_code": 1166,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": false,
+    "is_client": true,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-26T11:19:09.629",
+    "updated": "2022-04-26T11:25:49.004"
+  }
+},
+{
+  "model": "membership.apimember",
+  "pk": 16,
+  "fields": {
+    "name_user": "dmarin",
+    "first_surname": "SEGURA",
+    "second_surname": "MARIN",
+    "cap_num": 1234,
+    "identity": "45784592",
+    "person_type": "N",
+    "profession": "O",
+    "mobile": "999999999",
+    "phone": "",
+    "email": "carlosarmandor@hotmail.com",
+    "secret_code": null,
+    "address": "",
+    "price_month": "0.00",
+    "price_year": "0.00",
+    "payment_method": "V",
+    "membership_type": "PLPA",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": false,
+    "is_client": true,
+    "date_enrollment": null,
+    "date_expired": null,
+    "created": "2022-04-27T10:27:10.926",
+    "updated": "2022-04-27T10:31:40.736"
+  }
+}
+]
