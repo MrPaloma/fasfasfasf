@@ -1,0 +1,116 @@
+[
+{
+  "model": "apps.member",
+  "pk": 1,
+  "fields": {
+    "user": 4,
+    "first_surname": "SUYON",
+    "second_surname": "SOSA",
+    "names": "JESUS",
+    "full_name": "Nombre completo",
+    "person_type": "N",
+    "identity": "73388157",
+    "profession": "",
+    "mobile": "988841303",
+    "phone": null,
+    "email": "suyon.jesus@gmail.com",
+    "tuition": "73388157",
+    "secret_code": null,
+    "address": "SN",
+    "area_interest": "",
+    "institution": "",
+    "photo": "",
+    "register_date_time": "2022-04-28T17:55:55.908",
+    "is_enabled": false,
+    "penalty_fee": false,
+    "has_tutition": false,
+    "membership": 3,
+    "is_client": false,
+    "created": "2022-04-28T17:55:55.908",
+    "updated": "2022-05-05T13:05:43.443",
+    "suscripcion_foro": []
+  }
+},
+{
+  "model": "apps.order_payment",
+  "pk": 1,
+  "fields": {
+    "member": 1,
+    "names": "JESUS",
+    "first_surname": "SUYON",
+    "second_surname": "SOSA",
+    "email": "kjdkj@kjkf.com",
+    "identity": "73388157",
+    "paid": true,
+    "niubiz_id": "445f6532-7ca3-4cd2-bfb8-67e27e418be3",
+    "pay_method": "",
+    "pay_import": "18.00",
+    "validity_date_start": "2022-04-28T18:00:16.588",
+    "validity_date_finish": "2022-05-28T18:00:16.588",
+    "created": "2022-04-28T18:00:16.589",
+    "updated": "2022-04-28T18:00:16.589"
+  }
+},
+{
+  "model": "apps.order_payment",
+  "pk": 2,
+  "fields": {
+    "member": 1,
+    "names": "JESUS",
+    "first_surname": "SUYON",
+    "second_surname": "SOSA",
+    "email": "kjkf@kjkf.com",
+    "identity": "73388157",
+    "paid": true,
+    "niubiz_id": "edc8eb12-8c4b-4d04-a7d8-165987e99305",
+    "pay_method": "",
+    "pay_import": "18.00",
+    "validity_date_start": "2022-05-28T18:00:16.588",
+    "validity_date_finish": "2022-06-27T18:00:16.588",
+    "created": "2022-05-02T16:58:53.983",
+    "updated": "2022-05-02T16:58:53.983"
+  }
+},
+{
+  "model": "apps.niubiztransaction",
+  "pk": 1,
+  "fields": {
+    "order_pyment": 1,
+    "ecoreTransactionUUID": "445f6532-7ca3-4cd2-bfb8-67e27e418be3",
+    "channel": "web",
+    "signature": "445f6532-7ca3-4cd2-bfb8-67e27e418be3",
+    "tokenId": "2A48E5142E8A44A988E5142E8A24A961",
+    "purchaseNumber": "73388157",
+    "amount": "18.0",
+    "installment": "0",
+    "currency": "PEN",
+    "authorizedAmount": "18.0",
+    "authorizationCode": "091800",
+    "traceNumber": "45736",
+    "card": "447411******2240",
+    "action_description": "Aprobado y completado con exito",
+    "brand": "visa"
+  }
+},
+{
+  "model": "apps.niubiztransaction",
+  "pk": 2,
+  "fields": {
+    "order_pyment": 2,
+    "ecoreTransactionUUID": "edc8eb12-8c4b-4d04-a7d8-165987e99305",
+    "channel": "web",
+    "signature": "edc8eb12-8c4b-4d04-a7d8-165987e99305",
+    "tokenId": "FBDF1CBB298F4B1C9F1CBB298FCB1C0F",
+    "purchaseNumber": "73388157",
+    "amount": "18.0",
+    "installment": "0",
+    "currency": "PEN",
+    "authorizedAmount": "18.0",
+    "authorizationCode": "091800",
+    "traceNumber": "46606",
+    "card": "447411******2240",
+    "action_description": "Aprobado y completado con exito",
+    "brand": "visa"
+  }
+}
+]

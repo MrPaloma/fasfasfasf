@@ -59,6 +59,7 @@
   "model": "membership.membership",
   "pk": 1,
   "fields": {
+    "name": null,
     "membership_type": "PLPA",
     "price_month": "0.00",
     "price_quarterly": "0.00",
@@ -80,6 +81,7 @@
   "model": "membership.membership",
   "pk": 2,
   "fields": {
+    "name": null,
     "membership_type": "PNA",
     "price_month": "0.00",
     "price_quarterly": "0.00",
@@ -94,6 +96,7 @@
   "model": "membership.membership",
   "pk": 3,
   "fields": {
+    "name": null,
     "membership_type": "PLPP",
     "price_month": "18.00",
     "price_quarterly": "0.00",
@@ -113,6 +116,7 @@
   "model": "membership.membership",
   "pk": 4,
   "fields": {
+    "name": null,
     "membership_type": "PLPPA",
     "price_month": "10.00",
     "price_quarterly": "0.00",
@@ -134,6 +138,7 @@
   "model": "membership.membership",
   "pk": 5,
   "fields": {
+    "name": null,
     "membership_type": "PPPA",
     "price_month": "0.00",
     "price_quarterly": "0.00",
@@ -155,6 +160,7 @@
   "model": "membership.membership",
   "pk": 6,
   "fields": {
+    "name": null,
     "membership_type": "PPPPA",
     "price_month": "22.00",
     "price_quarterly": "0.00",
@@ -176,6 +182,7 @@
   "model": "membership.membership",
   "pk": 7,
   "fields": {
+    "name": null,
     "membership_type": "PPPP",
     "price_month": "30.00",
     "price_quarterly": "0.00",
@@ -215,8 +222,8 @@
     "penalty_fee": false,
     "has_tutition": true,
     "is_client": false,
-    "date_enrollment": "2022-03-03",
-    "date_expired": "2022-03-03",
+    "date_enrollment": "2022-03-03T00:00:00",
+    "date_expired": "2022-03-03T00:00:00",
     "created": "2022-03-03T12:41:01.289",
     "updated": "2022-03-07T10:40:11.986"
   }
@@ -245,8 +252,8 @@
     "penalty_fee": false,
     "has_tutition": true,
     "is_client": false,
-    "date_enrollment": "2022-03-03",
-    "date_expired": "2022-03-03",
+    "date_enrollment": "2022-03-03T00:00:00",
+    "date_expired": "2022-03-03T00:00:00",
     "created": "2022-03-03T12:43:13.772",
     "updated": "2022-03-07T10:40:40.045"
   }
@@ -275,8 +282,8 @@
     "penalty_fee": false,
     "has_tutition": true,
     "is_client": false,
-    "date_enrollment": "2022-03-04",
-    "date_expired": "2022-03-04",
+    "date_enrollment": "2022-03-04T00:00:00",
+    "date_expired": "2022-03-04T00:00:00",
     "created": "2022-03-04T10:33:19.051",
     "updated": "2022-03-24T00:19:39.996"
   }
@@ -305,8 +312,8 @@
     "penalty_fee": false,
     "has_tutition": false,
     "is_client": true,
-    "date_enrollment": "2022-03-25",
-    "date_expired": "2022-04-25",
+    "date_enrollment": "2022-03-25T00:00:00",
+    "date_expired": "2022-04-25T00:00:00",
     "created": "2022-03-25T09:29:40.945",
     "updated": "2022-03-25T17:16:43.643"
   }
@@ -335,8 +342,8 @@
     "penalty_fee": false,
     "has_tutition": true,
     "is_client": false,
-    "date_enrollment": "2022-03-28",
-    "date_expired": "2023-03-28",
+    "date_enrollment": "2022-03-28T00:00:00",
+    "date_expired": "2023-03-28T00:00:00",
     "created": "2022-03-28T17:27:50.347",
     "updated": "2022-03-28T17:27:50.347"
   }

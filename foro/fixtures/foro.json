@@ -1,0 +1,116 @@
+[
+{
+  "model": "foro.foro",
+  "pk": 1,
+  "fields": {
+    "nombre": "Foro de Seguridad",
+    "descripcion": "Preguntas sobre normas de seguridad",
+    "created": "2022-04-28T16:09:41.162"
+  }
+},
+{
+  "model": "foro.foro",
+  "pk": 2,
+  "fields": {
+    "nombre": "Procedimiento de Conformidad de Obra",
+    "descripcion": "Se está presentando mucha casuística sobre el procedimiento de Conformidad de Obra debido a los cambios efectuados en la obra que pueden ser considerados sustanciales y no sustanciales.",
+    "created": "2022-04-28T16:09:49.244"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 1,
+  "fields": {
+    "foro": 1,
+    "user": 2,
+    "comentario": "Hola",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-04-28T16:10:20.254"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 2,
+  "fields": {
+    "foro": 1,
+    "user": 3,
+    "comentario": "Hola",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-05-02T15:21:04.621"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 3,
+  "fields": {
+    "foro": 1,
+    "user": 4,
+    "comentario": "hola soy jesus ....",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-05-02T16:14:52.565"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 4,
+  "fields": {
+    "foro": 1,
+    "user": 4,
+    "comentario": "comentario con archivo",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "comentario_foro/Colegio_de_Arquitectos_del_Perú.pdf",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-05-02T16:19:27.133"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 5,
+  "fields": {
+    "foro": 1,
+    "user": 4,
+    "comentario": "comentario comentario comentario comentario comentario comentario comentario comentario comentario comentario comentario comentario comentario comenta",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "comentario_foro/description.xls",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-05-02T16:20:25.765"
+  }
+},
+{
+  "model": "foro.comentario_foro",
+  "pk": 6,
+  "fields": {
+    "foro": 1,
+    "user": 3,
+    "comentario": "Les comparto el Archivo CAD de puertas cortafuego.",
+    "likes": 0,
+    "dislikes": 0,
+    "file_one": "comentario_foro/LAMINA_DE_PUERTAS_CORTAFUEGO_SALUD.dwg",
+    "file_two": "",
+    "file_three": "",
+    "file_four": "",
+    "created": "2022-05-04T11:55:56.060"
+  }
+}
+]

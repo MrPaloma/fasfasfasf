@@ -1,0 +1,80 @@
+[
+{
+  "model": "cursos.curso",
+  "pk": 2,
+  "fields": {
+    "titulo": "Aplicación de la Nueva Norma A.020 del Reglamento Nacional de Edificaciones | 14 de julio",
+    "norma": "A.020",
+    "propiedad": "PU",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ddNkKxdS78I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "Charla explicativa de la Nueva A.020 del 07 de julio 2021. Resolución Ministerial N° 188-2021-VIVIENDA. Actualización de cálculo de Pozos de Luz, Altura de Edificación, etc.",
+    "caratula": "cursos_caratulas/CharlaA.020RNE.png",
+    "fecha_publicacion": "2021-07-14"
+  }
+},
+{
+  "model": "cursos.curso",
+  "pk": 3,
+  "fields": {
+    "titulo": "Taller N° 3 - El RNE como Marco Normativo Edificatorio",
+    "norma": "Reglamento Nacional de Edificaciones a marzo 2022",
+    "propiedad": "PR",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TZmv4AzOK-Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "El RNE como Marco Normativo Edificatorio, es la norma técnica rectora en el territorio nacional, es de apliacion obligatoria para quienes desarrollen procesos de habilitación urbana y edificación en el ámbito nacional. Las Municipalidades Provinciales podrán formular Normas complementarias  en función de las características geográficas y climáticas particulares y la realidad cultural de su jurisdicción. Dichas normas deberán estar basadas en los aspectos normados en el presente título y concordadas con lo dispuesto en el presente Reglamento.",
+    "caratula": "cursos_caratulas/RNE.png",
+    "fecha_publicacion": "2022-03-30"
+  }
+},
+{
+  "model": "cursos.curso",
+  "pk": 4,
+  "fields": {
+    "titulo": "Seminario Aplicación de la Norma A.010 condiciones generales de diseño del RNE",
+    "norma": "A.010 DEL RNE",
+    "propiedad": "PR",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jljVGlDdo40\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "Aplicación de la Norma A010 Condiciones generales de diseño del RNE. Resolución Ministerial N° 191-2021-VIVIENDA del 08 de julio  2021. Actualización de Criterios y requisitos mínimos que debe cumplir el diseño arquitectónico de toda edificación, para garantizar el desarrollo de las actividades de las personas.",
+    "caratula": "cursos_caratulas/SeminarioA.010_RNE.png",
+    "fecha_publicacion": "2022-02-07"
+  }
+},
+{
+  "model": "cursos.curso",
+  "pk": 5,
+  "fields": {
+    "titulo": "Modificaciones de las normas técnicas G.040 \"Definiciones\" y A.070  \"Comercio\" del RNE",
+    "norma": "Normas: G.040 Definiciones, A.070 Comercio del RNE",
+    "propiedad": "PU",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oWmHO96Yc08\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "Modificaciones a las Normas G.040 Definiciones y la Norma A.070 Comercio del Reglamento Nacional de Edificaciones.",
+    "caratula": "cursos_caratulas/Webinar_Norma_G.040_y_Norma_A.070_del_RNE_14.04.2021.png",
+    "fecha_publicacion": "2021-04-14"
+  }
+},
+{
+  "model": "cursos.curso",
+  "pk": 6,
+  "fields": {
+    "titulo": "Accesibilidad y Arquitectura",
+    "norma": "A.120 del RNE",
+    "propiedad": "PR",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GDuyvLNvRuA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "Accesibilidad Universal en Edificaciones",
+    "caratula": "cursos_caratulas/AccesibilidadA.120_20.11.2021.png",
+    "fecha_publicacion": "2021-11-20"
+  }
+},
+{
+  "model": "cursos.curso",
+  "pk": 7,
+  "fields": {
+    "titulo": "Aplicación de la Norma A.011 en la revisión de Proyectos de Arquitectura",
+    "norma": "A.011",
+    "propiedad": "PU",
+    "embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8irsamCMrUE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "descripcion": "Nueva Norma del RNE A.011 Criterios y condiciones para la Evaluación del Impacto Vial en Edificaciones del Reglamento Nacional de Edificaciones D.S. N° 017-2020-VIVIENDA publicada en el diario El Peruano el 12 de diciembre de 2020.",
+    "caratula": "cursos_caratulas/A.011.png",
+    "fecha_publicacion": "2021-01-13"
+  }
+}
+]
